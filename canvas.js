@@ -1,3 +1,7 @@
+var font;
+
+function preload(){
+  font = loadFont()
 function setup(){
   createCanvas(800, 300);
   background(51);
@@ -7,3 +11,5 @@ function setup(){
   fill(255);
   noStroke();
 }
+
+function draw
